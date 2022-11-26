@@ -1,0 +1,14 @@
+.rounded__bttn {
+  width: 38px;
+  height: 38px;
+  border-radius: 38px;
+
+  border: none;
+
+  color: var(--text-white-color);
+  background-color: var(--rounded-bttn-bg-color);
+}
+
+.rounded__bttn:hover {
+  background-color: var(--rounded-bttn-bg-color-hover);
+}

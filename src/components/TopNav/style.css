@@ -1,0 +1,36 @@
+/* .app__nav {
+
+} */
+
+.app__menu {
+  list-style: none;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+/* .app__item {
+
+} */
+
+.app__link {
+  color: var(--text-color);
+  font-size: 16px;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+.app__link--active {
+  font-size: 16px;
+  text-decoration: underline;
+}
+
+.app__link--logo {
+  font-size: 21px;
+  margin-right: 30px;
+  line-height: 10px;
+  font-weight: 600;
+  color: var(--text-color);
+  text-decoration: none;
+}

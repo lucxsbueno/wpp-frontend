@@ -1,0 +1,9 @@
+.header {
+  width: 100%;
+  height: var(--header-height);
+
+  padding: 0px 25px;
+
+  display: flex;
+  align-items: center;
+}
