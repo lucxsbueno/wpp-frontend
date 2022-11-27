@@ -8,7 +8,7 @@ const routes = [
   {
     id: 2,
     name: "WhatsApp",
-    to: "/",
+    to: "whatsapp",
     class: ""
   },
   {

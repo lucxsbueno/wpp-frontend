@@ -24,7 +24,8 @@ code {
 :root {
   /* Geral */
   --primary-color: #009B72;
-  --secondary-color: #FCE762;
+  --secondary-color: #F78154;
+  --terciary-color: #FF5964;
   --bg-color: #27282C;
   --bg-content-color: #292A2E;
   --box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.25);
@@ -39,6 +40,11 @@ code {
   --primary-bttn-box-shadow: 0px 2px 0px #0D6951;
   --primary-bttn-color: #0E8364;
   --primary-bttn-color-hover: #198b6d;
+
+  --terciary-bttn-box-shadow: 0px 2px 0px #6e2f33;
+  --terciary-bttn-color: #FF5964;
+  --terciary-bttn-color-hover: #ff6670;
+
   --rounded-bttn-bg-color: rgba(255, 255, 255, 0.021);
   --rounded-bttn-bg-color-hover: rgba(255, 255, 255, 0.04);
 
@@ -115,6 +121,10 @@ code {
 
 .bg-grey-02 {
   background-color: var(--bg-grey-02);
+}
+
+.mt-100 {
+  margin-top: 100px;
 }
 
 /*

@@ -12,7 +12,7 @@ const WhatsApp = props => {
   const navigate = useNavigate();
 
   const goToNewSession = () => {
-    navigate("new");
+    navigate("new-session");
   }
 
   return (

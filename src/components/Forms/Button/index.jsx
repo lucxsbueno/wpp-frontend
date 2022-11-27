@@ -3,7 +3,8 @@ import React from "react";
 import "./style.css";
 
 const variants = {
-  "primary": "bttn bttn--primary"
+  "primary": "bttn bttn--primary",
+  "terciary": "bttn bttn--terciary",
 };
 
 const Button = props => {

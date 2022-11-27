@@ -26,6 +26,15 @@
   background-color: var(--primary-bttn-color-hover);
 }
 
+.bttn--terciary {
+  background-color: var(--terciary-bttn-color);
+  box-shadow: var(--terciary-bttn-box-shadow);
+}
+
+.bttn--terciary:hover {
+  background-color: var(--terciary-bttn-color-hover);
+}
+
 .bttn:active {
   opacity: .8;
   box-shadow: none;
