@@ -63,11 +63,21 @@ code {
   --input-border: 2px solid #FFFFFF;
   --input-placeholder-color: rgba(92, 96, 113, 1);
   --input-box-shadow: 0px 0px 0px 4px rgba(255, 255, 255, 0.02);
+  --input-border-color: rgba(255, 255, 255, 0.72);
 
   /* Scroll bar */
   --scroll-track-color: rgba(0, 0, 0, 0.116);
   --scroll-thumb-color: rgba(0, 0, 0, 0.116);
   --scroll-hover-color: rgba(0, 0, 0, 0.205);
+
+  /* Errors and states */
+  --green-light: #62AC6E;
+  --green-dark: #62A16C;
+  --red-light: #F15656;
+  --red-opacity: #fcb2b2;
+  --red-dark: #B54141;
+  --yellow-light: #F8F5BF;
+  --yellow-dark: #f3dd5f;
 }
 
 /* Geral */
@@ -125,6 +135,16 @@ code {
 
 .mt-100 {
   margin-top: 100px;
+}
+
+.mt-5 {
+  margin-top: 5px;
+}
+
+.text-error-light {
+  color: var(--red-light);
+  font-weight: 400;
+  font-size: 16px;
 }
 
 /*
