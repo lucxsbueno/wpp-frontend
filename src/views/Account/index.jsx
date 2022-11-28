@@ -7,7 +7,7 @@ const Account = () => {
 
   React.useEffect(() => {
     navigate("/whatsapp");
-  }, []);
+  }, [navigate]);
 
   return null;
 }

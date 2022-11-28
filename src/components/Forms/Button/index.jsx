@@ -8,13 +8,15 @@ const variants = {
 };
 
 const Button = props => {
-  const { title, type, icon, color, onClick } = props;
- 
+  const { isLoading, title, type, icon, color, onClick } = props;
+  
+  const bttnTitle = isLoading ? "Carregando..." : title;
+
   return (
     <button type={type} title={title}
       className={variants[color]} onClick={onClick}>
         {icon}
-        <span className="bttn__title">{title}</span>
+        <span className="bttn__title">{bttnTitle}</span>
     </button>
   );
 }

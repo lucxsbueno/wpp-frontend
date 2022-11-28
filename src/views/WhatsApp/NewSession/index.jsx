@@ -4,14 +4,16 @@ import "./style.css";
 
 import { useForm } from "react-hook-form";
 import { ArrowLeft } from "react-feather";
+import { useCreateSession } from "../queries";
 import { useNavigate } from "react-router-dom";
 import { yupResolver } from "@hookform/resolvers/yup";
-import schema from "../../../utils/schemas/new-session.schema";
 
+import cuid from "cuid";
 import Card from "../../../components/Card";
 import Header from "../../../components/Header";
 import Input from "../../../components/Forms/Input";
 import Button from "../../../components/Forms/Button";
+import schema from "../../../utils/schemas/new-session.schema";
 import RoundedButton from "../../../components/Forms/RoundedButton";
 
 const NewSession = props => {
@@ -22,7 +24,11 @@ const NewSession = props => {
     navigate("/whatsapp");
   }
 
-  const createSession = data => console.log(data);
+  const createSessionMutation = useCreateSession();
+
+  const createSession = ({ name, description }) => {
+    createSessionMutation.mutate({ id: cuid(), name, description });
+  };
 
   return (
     <div className="session">
