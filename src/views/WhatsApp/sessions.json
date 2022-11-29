@@ -1,29 +1,14 @@
 {
   "sessions": [
     {
-      "id": "clb06mizn00003n6e187hgpf5",
-      "name": "qweqweqwe",
-      "description": "qweqwe"
+      "id": "clb1obrqa00003n6e99dc501h",
+      "name": "Meu celular",
+      "description": "Lorem ipsum"
     },
     {
-      "id": "clb06mzxx00023n69nvc01yhc",
-      "name": "adsasdasdasdasdasd 2",
-      "description": "dsasdasd"
-    },
-    {
-      "id": "clb06ncav000a3n69pk51sab0",
-      "name": "adsfsfsdfsdfsdf 3",
-      "description": "asdasdasdasdasd"
-    },
-    {
-      "id": "clb06s86d00023n6e0cmr2m2t",
-      "name": "sdfsdfq",
-      "description": "sdfsdfsdfsdf"
-    },
-    {
-      "id": "clb06t48000053n6ex24mks5y",
-      "name": "dsfsafsaf",
-      "description": "sadfasdf"
+      "id": "clb1odo9x00013n6e47hi0qj4",
+      "name": "Celular da empresa",
+      "description": "Lorem ipsum dolor"
     }
   ]
 }
