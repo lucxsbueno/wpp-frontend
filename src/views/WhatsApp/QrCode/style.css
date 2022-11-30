@@ -1,0 +1,14 @@
+.chat {
+  width: var(--side-chat-width);
+  height: 100%;
+
+  background-color: var(--bg-grey-01);
+}
+
+/* .chat__messages {
+  
+} */
+
+.chat__header {
+  padding: 15px 25px;
+}
