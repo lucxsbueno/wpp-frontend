@@ -15,9 +15,11 @@ import Input from "../../../components/Forms/Input";
 import Button from "../../../components/Forms/Button";
 import schema from "../../../utils/schemas/new-session.schema";
 import RoundedButton from "../../../components/Forms/RoundedButton";
+import { useDiacritics } from "../../../utils/hooks/useDiacritics";
 
 const NewSession = props => {
   const navigate = useNavigate();
+  const removeDiacritics = useDiacritics();
   const { register, handleSubmit, formState: { errors } } = useForm({ resolver: yupResolver(schema) });
 
   const goBack = () => {
@@ -27,7 +29,7 @@ const NewSession = props => {
   const createSessionMutation = useCreateSession();
 
   const createSession = ({ name, description }) => {
-    createSessionMutation.mutate({ id: cuid(), name, description });
+    createSessionMutation.mutate({ id: removeDiacritics(name).toLowerCase().split(" ").join("-") + "-" + cuid(), name, description });
   };
 
   return (

@@ -5,7 +5,7 @@ import "./style.css";
 import { useForm } from "react-hook-form";
 import { useSessions } from "../queries";
 import { MoreVertical } from "react-feather";
-import { useParams } from "react-router-dom";
+import { Outlet, useParams } from "react-router-dom";
 import { useWebsocket } from "../../../utils/hooks/useWebsocket";
 
 import LoadingBar from "react-top-loading-bar";
@@ -46,7 +46,7 @@ const QrCode = props => {
         </Header>
         <div className="chat__header">
           <form onSubmit={handleSubmit(search)}>
-            <Input placeholder="Pesquisar" name="search" register={register} />
+            <Input variant="search" placeholder="Pesquisar" name="search" register={register} />
           </form>
         </div>
         <div className="chat__body">
@@ -54,9 +54,7 @@ const QrCode = props => {
         </div>
       </div>
 
-      <div className="chat__messages">
-        teste
-      </div>
+      <Outlet />
     </div>
   );
 }
