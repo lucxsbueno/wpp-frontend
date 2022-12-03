@@ -9,3 +9,11 @@
 
   flex-shrink: 0;
 }
+
+@media screen and (min-width: 1180px) {
+  .header {
+    height: calc(var(--header-height) - 5px);
+
+    padding: 0px 20px;
+  }
+}

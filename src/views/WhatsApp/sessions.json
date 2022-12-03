@@ -1,19 +1,9 @@
 {
   "sessions": [
     {
-      "id": "clb1obrqa00003n6e99dc501h",
+      "id": "meu-celular-clb7858mg00003n695bcfls2q",
       "name": "Meu celular",
-      "description": "Lorem ipsum"
-    },
-    {
-      "id": "clb1odo9x00013n6e47hi0qj4",
-      "name": "Celular da empresa",
       "description": "Lorem ipsum dolor"
-    },
-    {
-      "id": "marketing-via-maquinas-clb4iyj8l000a3n688dwkzp22",
-      "name": "Marketing Via Máquinas",
-      "description": "Lorem ipsum dolor sit amet"
     }
   ]
 }

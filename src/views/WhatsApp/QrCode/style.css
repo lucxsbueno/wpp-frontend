@@ -17,3 +17,110 @@
 .chat__body {
   overflow: auto;
 }
+
+/* Chat item */
+/*
+ <div className="chat__item">
+            <div className="chat__avatar">
+              <input className="chat__checkbox" type="checkbox" name="" id="" />
+              <img className="chat__avatar-img" src="" alt="" />
+            </div>
+            <div className="chat__info">
+              <div className="chat__info-name-wrapper">
+                <span className="chat__info-name">Lucas Bueno</span>
+                <span className="chat__info-hr">12:34</span>
+                <div className="chat__info-bttn"></div>
+                <div className="chat__info-bttn"></div>
+              </div>
+
+              <p className="chat__info-last-message">
+                Lorem ipsum dolor sit amet
+              </p>
+            </div>
+          </div>
+*/
+.chat__item {
+  display: flex;
+  flex-direction: row;
+  cursor: default;
+}
+
+.chat__item:hover {
+  background-color: var(--bg-grey-02);
+}
+
+.chat__avatar {
+  padding: 10px 10px 10px 20px;
+
+  position: relative;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.chat__checkbox {
+  position: absolute;
+  display: none;
+}
+
+.chat__avatar:hover .chat__checkbox {
+  display: inline-block;
+}
+
+.chat__avatar-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.chat__avatar:hover .chat__avatar-img {
+  display: none;
+}
+
+.chat__avatar-img-wrapper {
+  width: 40px;
+  height: 40px;
+  background-color: var(--bg-content-color);
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.chat__info {
+  width: 100%;
+  padding: 10px 20px 0px 5px;
+}
+
+.chat__info-name-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.chat__info-name {
+  display: inline-block;
+  margin-bottom: 5px;
+  color: var(--text-color);
+}
+
+.chat__info-hr {
+  color: var(--text-color);
+}
+
+/* .chat__info-bttn {} */
+
+.chat__info-last-message {
+  margin: 0px;
+  padding: 0px;
+  color: var(--text-color);
+  font-size: 14px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--bg-grey-02);
+}
+
+@media screen and (min-width: 1180px) {
+  .chat__header {
+    padding: 15px 20px 0px;
+  }
+}

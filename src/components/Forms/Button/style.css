@@ -10,7 +10,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-} 
+}
 
 .bttn__title {
   display: inline-block;
@@ -36,6 +36,13 @@
 }
 
 .bttn:active {
+  opacity: .8;
+  box-shadow: none;
+  margin-bottom: 0px;
+  margin-top: 2px;
+}
+
+.bttn--terciary:active {
   opacity: .8;
   box-shadow: none;
   margin-bottom: 0px;

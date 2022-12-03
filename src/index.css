@@ -82,6 +82,13 @@ code {
 }
 
 /* Geral */
+@media screen and (min-width: 1180px) {
+  :root {
+    --side-menu-width: 260px;
+    --side-chat-width: 280px;
+  }
+}
+
 .clear-ul {
   list-style: none;
   margin: 0px;
@@ -196,7 +203,7 @@ code {
 .x-p-10 {
   padding-left: 10px;
   padding-right: 10px;
-} 
+}
 
 .y-p-20 {
   padding-top: 20px;

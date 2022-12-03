@@ -7,6 +7,11 @@
 
   color: var(--text-white-color);
   background-color: var(--rounded-bttn-bg-color);
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 
 .rounded__bttn:hover {

@@ -44,12 +44,367 @@ const QrCode = props => {
           <span className="text-color">Conversas</span>
           <RoundedButton icon={<MoreVertical size={22} />} />
         </Header>
+
         <div className="chat__header">
           <form onSubmit={handleSubmit(search)}>
             <Input variant="search" placeholder="Pesquisar" name="search" register={register} />
           </form>
         </div>
+
         <div className="chat__body">
+
+          <div className="chat__item">
+            <div className="chat__avatar">
+              <input className="chat__checkbox" type="checkbox" name="" id="" />
+              <div className="chat__avatar-img-wrapper">
+                <img className="chat__avatar-img" src="https://cdn.dribbble.com/users/6208205/screenshots/14407367/media/c17a9cf4566b898d63a04f3e449059e5.png?compress=1&resize=400x300&vertical=top" alt="" />
+              </div>
+            </div>
+            <div className="chat__info">
+              <div className="chat__info-name-wrapper">
+                <span className="chat__info-name">Lucas Bueno</span>
+                <div className="chat__info-actions">
+                  <span className="chat__info-hr">12:34</span>
+                  <div className="chat__info-bttn"></div>
+                  <div className="chat__info-bttn"></div>
+                </div>
+              </div>
+              <p className="chat__info-last-message">
+                Lorem ipsum dolor sit amet
+              </p>
+            </div>
+          </div>
+
+          <div className="chat__item">
+            <div className="chat__avatar">
+              <input className="chat__checkbox" type="checkbox" name="" id="" />
+              <div className="chat__avatar-img-wrapper">
+                <img className="chat__avatar-img" src="https://cdn.dribbble.com/users/6208205/screenshots/14407367/media/c17a9cf4566b898d63a04f3e449059e5.png?compress=1&resize=400x300&vertical=top" alt="" />
+              </div>
+            </div>
+            <div className="chat__info">
+              <div className="chat__info-name-wrapper">
+                <span className="chat__info-name">Lucas Bueno</span>
+                <div className="chat__info-actions">
+                  <span className="chat__info-hr">12:34</span>
+                  <div className="chat__info-bttn"></div>
+                  <div className="chat__info-bttn"></div>
+                </div>
+              </div>
+              <p className="chat__info-last-message">
+                Lorem ipsum dolor sit amet
+              </p>
+            </div>
+          </div>
+
+          <div className="chat__item">
+            <div className="chat__avatar">
+              <input className="chat__checkbox" type="checkbox" name="" id="" />
+              <div className="chat__avatar-img-wrapper">
+                <img className="chat__avatar-img" src="https://cdn.dribbble.com/users/6208205/screenshots/14407367/media/c17a9cf4566b898d63a04f3e449059e5.png?compress=1&resize=400x300&vertical=top" alt="" />
+              </div>
+            </div>
+            <div className="chat__info">
+              <div className="chat__info-name-wrapper">
+                <span className="chat__info-name">Lucas Bueno</span>
+                <div className="chat__info-actions">
+                  <span className="chat__info-hr">12:34</span>
+                  <div className="chat__info-bttn"></div>
+                  <div className="chat__info-bttn"></div>
+                </div>
+              </div>
+              <p className="chat__info-last-message">
+                Lorem ipsum dolor sit amet
+              </p>
+            </div>
+          </div>
+
+          <div className="chat__item">
+            <div className="chat__avatar">
+              <input className="chat__checkbox" type="checkbox" name="" id="" />
+              <div className="chat__avatar-img-wrapper">
+                <img className="chat__avatar-img" src="https://cdn.dribbble.com/users/6208205/screenshots/14407367/media/c17a9cf4566b898d63a04f3e449059e5.png?compress=1&resize=400x300&vertical=top" alt="" />
+              </div>
+            </div>
+            <div className="chat__info">
+              <div className="chat__info-name-wrapper">
+                <span className="chat__info-name">Lucas Bueno</span>
+                <div className="chat__info-actions">
+                  <span className="chat__info-hr">12:34</span>
+                  <div className="chat__info-bttn"></div>
+                  <div className="chat__info-bttn"></div>
+                </div>
+              </div>
+              <p className="chat__info-last-message">
+                Lorem ipsum dolor sit amet
+              </p>
+            </div>
+          </div>
+
+          <div className="chat__item">
+            <div className="chat__avatar">
+              <input className="chat__checkbox" type="checkbox" name="" id="" />
+              <div className="chat__avatar-img-wrapper">
+                <img className="chat__avatar-img" src="https://cdn.dribbble.com/users/6208205/screenshots/14407367/media/c17a9cf4566b898d63a04f3e449059e5.png?compress=1&resize=400x300&vertical=top" alt="" />
+              </div>
+            </div>
+            <div className="chat__info">
+              <div className="chat__info-name-wrapper">
+                <span className="chat__info-name">Lucas Bueno</span>
+                <div className="chat__info-actions">
+                  <span className="chat__info-hr">12:34</span>
+                  <div className="chat__info-bttn"></div>
+                  <div className="chat__info-bttn"></div>
+                </div>
+              </div>
+              <p className="chat__info-last-message">
+                Lorem ipsum dolor sit amet
+              </p>
+            </div>
+          </div>
+
+          <div className="chat__item">
+            <div className="chat__avatar">
+              <input className="chat__checkbox" type="checkbox" name="" id="" />
+              <div className="chat__avatar-img-wrapper">
+                <img className="chat__avatar-img" src="https://cdn.dribbble.com/users/6208205/screenshots/14407367/media/c17a9cf4566b898d63a04f3e449059e5.png?compress=1&resize=400x300&vertical=top" alt="" />
+              </div>
+            </div>
+            <div className="chat__info">
+              <div className="chat__info-name-wrapper">
+                <span className="chat__info-name">Lucas Bueno</span>
+                <div className="chat__info-actions">
+                  <span className="chat__info-hr">12:34</span>
+                  <div className="chat__info-bttn"></div>
+                  <div className="chat__info-bttn"></div>
+                </div>
+              </div>
+              <p className="chat__info-last-message">
+                Lorem ipsum dolor sit amet
+              </p>
+            </div>
+          </div>
+
+          <div className="chat__item">
+            <div className="chat__avatar">
+              <input className="chat__checkbox" type="checkbox" name="" id="" />
+              <div className="chat__avatar-img-wrapper">
+                <img className="chat__avatar-img" src="https://cdn.dribbble.com/users/6208205/screenshots/14407367/media/c17a9cf4566b898d63a04f3e449059e5.png?compress=1&resize=400x300&vertical=top" alt="" />
+              </div>
+            </div>
+            <div className="chat__info">
+              <div className="chat__info-name-wrapper">
+                <span className="chat__info-name">Lucas Bueno</span>
+                <div className="chat__info-actions">
+                  <span className="chat__info-hr">12:34</span>
+                  <div className="chat__info-bttn"></div>
+                  <div className="chat__info-bttn"></div>
+                </div>
+              </div>
+              <p className="chat__info-last-message">
+                Lorem ipsum dolor sit amet
+              </p>
+            </div>
+          </div>
+
+          <div className="chat__item">
+            <div className="chat__avatar">
+              <input className="chat__checkbox" type="checkbox" name="" id="" />
+              <div className="chat__avatar-img-wrapper">
+                <img className="chat__avatar-img" src="https://cdn.dribbble.com/users/6208205/screenshots/14407367/media/c17a9cf4566b898d63a04f3e449059e5.png?compress=1&resize=400x300&vertical=top" alt="" />
+              </div>
+            </div>
+            <div className="chat__info">
+              <div className="chat__info-name-wrapper">
+                <span className="chat__info-name">Lucas Bueno</span>
+                <div className="chat__info-actions">
+                  <span className="chat__info-hr">12:34</span>
+                  <div className="chat__info-bttn"></div>
+                  <div className="chat__info-bttn"></div>
+                </div>
+              </div>
+              <p className="chat__info-last-message">
+                Lorem ipsum dolor sit amet
+              </p>
+            </div>
+          </div>
+
+          <div className="chat__item">
+            <div className="chat__avatar">
+              <input className="chat__checkbox" type="checkbox" name="" id="" />
+              <div className="chat__avatar-img-wrapper">
+                <img className="chat__avatar-img" src="https://cdn.dribbble.com/users/6208205/screenshots/14407367/media/c17a9cf4566b898d63a04f3e449059e5.png?compress=1&resize=400x300&vertical=top" alt="" />
+              </div>
+            </div>
+            <div className="chat__info">
+              <div className="chat__info-name-wrapper">
+                <span className="chat__info-name">Lucas Bueno</span>
+                <div className="chat__info-actions">
+                  <span className="chat__info-hr">12:34</span>
+                  <div className="chat__info-bttn"></div>
+                  <div className="chat__info-bttn"></div>
+                </div>
+              </div>
+              <p className="chat__info-last-message">
+                Lorem ipsum dolor sit amet
+              </p>
+            </div>
+          </div>
+
+          <div className="chat__item">
+            <div className="chat__avatar">
+              <input className="chat__checkbox" type="checkbox" name="" id="" />
+              <div className="chat__avatar-img-wrapper">
+                <img className="chat__avatar-img" src="https://cdn.dribbble.com/users/6208205/screenshots/14407367/media/c17a9cf4566b898d63a04f3e449059e5.png?compress=1&resize=400x300&vertical=top" alt="" />
+              </div>
+            </div>
+            <div className="chat__info">
+              <div className="chat__info-name-wrapper">
+                <span className="chat__info-name">Lucas Bueno</span>
+                <div className="chat__info-actions">
+                  <span className="chat__info-hr">12:34</span>
+                  <div className="chat__info-bttn"></div>
+                  <div className="chat__info-bttn"></div>
+                </div>
+              </div>
+              <p className="chat__info-last-message">
+                Lorem ipsum dolor sit amet
+              </p>
+            </div>
+          </div>
+
+          <div className="chat__item">
+            <div className="chat__avatar">
+              <input className="chat__checkbox" type="checkbox" name="" id="" />
+              <div className="chat__avatar-img-wrapper">
+                <img className="chat__avatar-img" src="https://cdn.dribbble.com/users/6208205/screenshots/14407367/media/c17a9cf4566b898d63a04f3e449059e5.png?compress=1&resize=400x300&vertical=top" alt="" />
+              </div>
+            </div>
+            <div className="chat__info">
+              <div className="chat__info-name-wrapper">
+                <span className="chat__info-name">Lucas Bueno</span>
+                <div className="chat__info-actions">
+                  <span className="chat__info-hr">12:34</span>
+                  <div className="chat__info-bttn"></div>
+                  <div className="chat__info-bttn"></div>
+                </div>
+              </div>
+              <p className="chat__info-last-message">
+                Lorem ipsum dolor sit amet
+              </p>
+            </div>
+          </div>
+
+          <div className="chat__item">
+            <div className="chat__avatar">
+              <input className="chat__checkbox" type="checkbox" name="" id="" />
+              <div className="chat__avatar-img-wrapper">
+                <img className="chat__avatar-img" src="https://cdn.dribbble.com/users/6208205/screenshots/14407367/media/c17a9cf4566b898d63a04f3e449059e5.png?compress=1&resize=400x300&vertical=top" alt="" />
+              </div>
+            </div>
+            <div className="chat__info">
+              <div className="chat__info-name-wrapper">
+                <span className="chat__info-name">Lucas Bueno</span>
+                <div className="chat__info-actions">
+                  <span className="chat__info-hr">12:34</span>
+                  <div className="chat__info-bttn"></div>
+                  <div className="chat__info-bttn"></div>
+                </div>
+              </div>
+              <p className="chat__info-last-message">
+                Lorem ipsum dolor sit amet
+              </p>
+            </div>
+          </div>
+
+          <div className="chat__item">
+            <div className="chat__avatar">
+              <input className="chat__checkbox" type="checkbox" name="" id="" />
+              <div className="chat__avatar-img-wrapper">
+                <img className="chat__avatar-img" src="https://cdn.dribbble.com/users/6208205/screenshots/14407367/media/c17a9cf4566b898d63a04f3e449059e5.png?compress=1&resize=400x300&vertical=top" alt="" />
+              </div>
+            </div>
+            <div className="chat__info">
+              <div className="chat__info-name-wrapper">
+                <span className="chat__info-name">Lucas Bueno</span>
+                <div className="chat__info-actions">
+                  <span className="chat__info-hr">12:34</span>
+                  <div className="chat__info-bttn"></div>
+                  <div className="chat__info-bttn"></div>
+                </div>
+              </div>
+              <p className="chat__info-last-message">
+                Lorem ipsum dolor sit amet
+              </p>
+            </div>
+          </div>
+
+          <div className="chat__item">
+            <div className="chat__avatar">
+              <input className="chat__checkbox" type="checkbox" name="" id="" />
+              <div className="chat__avatar-img-wrapper">
+                <img className="chat__avatar-img" src="https://cdn.dribbble.com/users/6208205/screenshots/14407367/media/c17a9cf4566b898d63a04f3e449059e5.png?compress=1&resize=400x300&vertical=top" alt="" />
+              </div>
+            </div>
+            <div className="chat__info">
+              <div className="chat__info-name-wrapper">
+                <span className="chat__info-name">Lucas Bueno</span>
+                <div className="chat__info-actions">
+                  <span className="chat__info-hr">12:34</span>
+                  <div className="chat__info-bttn"></div>
+                  <div className="chat__info-bttn"></div>
+                </div>
+              </div>
+              <p className="chat__info-last-message">
+                Lorem ipsum dolor sit amet
+              </p>
+            </div>
+          </div>
+
+          <div className="chat__item">
+            <div className="chat__avatar">
+              <input className="chat__checkbox" type="checkbox" name="" id="" />
+              <div className="chat__avatar-img-wrapper">
+                <img className="chat__avatar-img" src="https://cdn.dribbble.com/users/6208205/screenshots/14407367/media/c17a9cf4566b898d63a04f3e449059e5.png?compress=1&resize=400x300&vertical=top" alt="" />
+              </div>
+            </div>
+            <div className="chat__info">
+              <div className="chat__info-name-wrapper">
+                <span className="chat__info-name">Lucas Bueno</span>
+                <div className="chat__info-actions">
+                  <span className="chat__info-hr">12:34</span>
+                  <div className="chat__info-bttn"></div>
+                  <div className="chat__info-bttn"></div>
+                </div>
+              </div>
+              <p className="chat__info-last-message">
+                Lorem ipsum dolor sit amet
+              </p>
+            </div>
+          </div>
+
+          <div className="chat__item">
+            <div className="chat__avatar">
+              <input className="chat__checkbox" type="checkbox" name="" id="" />
+              <div className="chat__avatar-img-wrapper">
+                <img className="chat__avatar-img" src="https://cdn.dribbble.com/users/6208205/screenshots/14407367/media/c17a9cf4566b898d63a04f3e449059e5.png?compress=1&resize=400x300&vertical=top" alt="" />
+              </div>
+            </div>
+            <div className="chat__info">
+              <div className="chat__info-name-wrapper">
+                <span className="chat__info-name">Lucas Bueno</span>
+                <div className="chat__info-actions">
+                  <span className="chat__info-hr">12:34</span>
+                  <div className="chat__info-bttn"></div>
+                  <div className="chat__info-bttn"></div>
+                </div>
+              </div>
+              <p className="chat__info-last-message">
+                Lorem ipsum dolor sit amet
+              </p>
+            </div>
+          </div>
+
 
         </div>
       </div>

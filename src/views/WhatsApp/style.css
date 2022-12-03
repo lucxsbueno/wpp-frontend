@@ -88,3 +88,13 @@
   width: calc(100% - var(--side-menu-width));
   background-color: var(--bg-content-color);
 }
+
+@media screen and (min-width: 1180px) {
+  .wpp__menu-footer {
+    padding: 5px 20px;
+  }
+
+  .wpp__nav {
+    padding: 15px 20px 5px;
+  }
+}
