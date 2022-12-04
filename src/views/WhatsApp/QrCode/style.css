@@ -60,11 +60,6 @@
   justify-content: center;
 }
 
-.chat__checkbox {
-  position: absolute;
-  display: none;
-}
-
 .chat__avatar:hover .chat__checkbox {
   display: inline-block;
 }
@@ -85,6 +80,19 @@
   background-color: var(--bg-content-color);
   border-radius: 50%;
   overflow: hidden;
+}
+
+.chat__checkbox {
+  position: absolute;
+  display: none;
+}
+
+.chat__checkbox:checked {
+  display: inline-block;
+}
+
+.chat__checkbox:checked + .chat__avatar-img-wrapper .chat__avatar-img {
+  display: none;
 }
 
 .chat__info {
