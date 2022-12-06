@@ -3,6 +3,7 @@
   display: flex;
   flex-direction: row;
   cursor: default;
+  text-decoration: none;
 }
 
 .chat__item:hover .chat__info-bttn {
@@ -10,6 +11,10 @@
 }
 
 .chat__item:hover {
+  background-color: var(--bg-grey-02);
+}
+
+.chat__item.active {
   background-color: var(--bg-grey-02);
 }
 
@@ -71,7 +76,7 @@
 .chat__info-bttn {
   width: 18px;
   height: 18px;
-  
+
   display: none;
   flex-direction: row;
   align-items: center;
@@ -87,7 +92,6 @@
 
 .chat__info-mark {
   margin-top: 2px;
-  margin-left: 10px;
   color: var(--text-color);
 }
 
@@ -143,15 +147,33 @@
   -webkit-box-orient: vertical;
 
   -ms-word-break: break-all;
-    word-break: break-all;
+  word-break: break-all;
 
- /* Non standard for webkit */
-     word-break: break-word;
+  /* Non standard for webkit */
+  word-break: break-word;
 
-    -webkit-hyphens: auto;
-       -moz-hyphens: auto;
-        -ms-hyphens: auto;
-            hyphens: auto;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+}
+
+.chat__unread-count {
+  width: 18px;
+  height: 18px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border-radius: 18px;
+
+  font-size: 12px;
+
+  background-color: var(--primary-color);
+
+  text-decoration: none;
+  color: var(--text-color);
 }
 
 @media screen and (min-width: 1180px) {

@@ -6,11 +6,11 @@ const Intro = props => {
 
   return (
     <div className="intro">
-      <h1 className="intro__h1">Aqui ficam os seus chats!</h1>
+      {/* <h1 className="intro__h1">Aqui ficam os seus chats!</h1>
 
       <p className="intro__section">
         Selecione um chat ao lado para <strong className="text-underline text-primary">começar</strong>.
-      </p>
+      </p> */}
     </div>
   );
 }
