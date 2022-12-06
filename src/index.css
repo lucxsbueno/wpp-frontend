@@ -32,7 +32,7 @@ code {
   --status-active: #20E300;
   --header-height: 60px;
   --side-menu-width: 290px;
-  --side-chat-width: 310px;
+  --side-chat-width: 330px;
   --bg-grey-01: #2F3136;
   --bg-grey-02: #323439;
 
@@ -82,7 +82,7 @@ code {
 }
 
 /* Geral */
-@media screen and (min-width: 1180px) {
+@media screen and (max-width: 1180px) {
   :root {
     --side-menu-width: 260px;
     --side-chat-width: 280px;

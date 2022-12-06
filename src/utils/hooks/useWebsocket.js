@@ -5,7 +5,9 @@ import socket from "../ws/websocket.config";
 export const useWebsocket = (id, sessions, ref) => {
   const [qr, setQr] = React.useState("");
   const [log, setLog] = React.useState("");
+  const [chats, setChats] = React.useState([]);
   const [message, setMessage] = React.useState("");
+  const [isLoading, setIsLoading] = React.useState(true);
   const [isConnected, setIsConnected] = React.useState(socket.connected);
 
   React.useEffect(() => {
@@ -20,6 +22,8 @@ export const useWebsocket = (id, sessions, ref) => {
     });
 
     socket.on("loading", data => {
+      setIsLoading(data.loading);
+
       if (data.start) {
         ref.current.continuousStart();
       } else {
@@ -47,6 +51,7 @@ export const useWebsocket = (id, sessions, ref) => {
 
     socket.on("chats", chats => {
       console.log(chats);
+      setChats(chats);
     });
 
     return () => {
@@ -61,5 +66,5 @@ export const useWebsocket = (id, sessions, ref) => {
     };
   }, [id, sessions?.data, ref]);
 
-  return { qr, log, message, isConnected };
+  return { qr, log, message, chats, isLoading, isConnected };
 }

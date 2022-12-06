@@ -1,8 +1,13 @@
 {
   "sessions": [
     {
-      "id": "meu-celular-clb7858mg00003n695bcfls2q",
+      "id": "meu-celular-clbbhrbmy00003n6eldzj21k3",
       "name": "Meu celular",
+      "description": "Lorem ipsum dolor"
+    },
+    {
+      "id": "whats-da-empresa-clbbj0y5g00003n6esrsup7kj",
+      "name": "Whats da empresa",
       "description": "Lorem ipsum dolor"
     }
   ]
